@@ -10,7 +10,6 @@ Connectify is a Social Media Web Application that is designed to provide users w
 - **Post Creation and Management**: Users can create, edit, and delete posts.
 - **Likes**: Users can like posts.
 - **Dark Mode**: Toggle between light and dark themes.
-- **Responsive Design**: Optimized for use on both desktop and mobile devices.
 
 ## Technologies Used
 
