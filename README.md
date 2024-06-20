@@ -34,19 +34,19 @@ Connectify is a Social Media Web Application that is designed to provide users w
    cd Connectify
    ```
 
-2. **Install dependencies for the backend
+2. Install dependencies for the backend
    ```bash
    cd server
    npm install
    ```
 
-3. **Install dependencies for the frontend
+3. Install dependencies for the frontend
    ```bash
    cd ../client
    npm install
    ```
 
-4. **Set up environment variables
+4. Set up environment variables
    ***Create a .env file in the backend directory and add the following:
    ```bash
    PORT=5000
@@ -54,7 +54,7 @@ Connectify is a Social Media Web Application that is designed to provide users w
    JWT_SECRET=your_jwt_secret
    ```
 
-5. **Run the application
+5. Run the application
    ```bash
    cd backend
    npm start
