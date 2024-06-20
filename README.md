@@ -30,5 +30,35 @@ Connectify is a Social Media Web Application that is designed to provide users w
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/social-media-app.git
-   cd social-media-app
+   git clone https://github.com/arnavdaryani/Connectify.git
+   cd Connectify
+   ```
+
+2. **Install dependencies for the backend
+   ```bash
+   cd server
+   npm install
+   ```
+
+3. **Install dependencies for the frontend
+   ```bash
+   cd ../client
+   npm install
+   ```
+
+4. **Set up environment variables
+   ***Create a .env file in the backend directory and add the following:
+   ```bash
+   PORT=5000
+   MONGO_URI=your_mongodb_connection_string
+   JWT_SECRET=your_jwt_secret
+   ```
+
+5. **Run the application
+   ```bash
+   cd backend
+   npm start
+
+   cd ../frontend
+   npm start
+   ```
