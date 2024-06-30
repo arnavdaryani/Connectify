@@ -46,7 +46,6 @@ Connectify is a Social Media Web Application that is designed to provide users w
    ```
 
 4. Set up environment variables
-   Create a .env file in the backend directory and add the following:
    ```bash
    PORT=5000
    MONGO_URI=your_mongodb_connection_string
